@@ -23,6 +23,8 @@
 		1AD49F1219B184C30008C4CE /* APAnimationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD49F1119B184C30008C4CE /* APAnimationListViewController.m */; };
 		1AD49F1519B1862D0008C4CE /* APShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD49F1419B1862D0008C4CE /* APShakeViewController.m */; };
 		1AD49F1919B186F60008C4CE /* ShakeBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD49F1819B186F60008C4CE /* ShakeBehaviour.m */; };
+		1AD49F1D19B188250008C4CE /* APDropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD49F1C19B188250008C4CE /* APDropViewController.m */; };
+		1AD49F2019B188510008C4CE /* DropBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD49F1F19B188510008C4CE /* DropBehaviour.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,10 @@
 		1AD49F1419B1862D0008C4CE /* APShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APShakeViewController.m; sourceTree = "<group>"; };
 		1AD49F1719B186F60008C4CE /* ShakeBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeBehaviour.h; sourceTree = "<group>"; };
 		1AD49F1819B186F60008C4CE /* ShakeBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeBehaviour.m; sourceTree = "<group>"; };
+		1AD49F1B19B188250008C4CE /* APDropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDropViewController.h; sourceTree = "<group>"; };
+		1AD49F1C19B188250008C4CE /* APDropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDropViewController.m; sourceTree = "<group>"; };
+		1AD49F1E19B188510008C4CE /* DropBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropBehaviour.h; sourceTree = "<group>"; };
+		1AD49F1F19B188510008C4CE /* DropBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropBehaviour.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,8 @@
 			children = (
 				1AD49F1319B1862D0008C4CE /* APShakeViewController.h */,
 				1AD49F1419B1862D0008C4CE /* APShakeViewController.m */,
+				1AD49F1B19B188250008C4CE /* APDropViewController.h */,
+				1AD49F1C19B188250008C4CE /* APDropViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -174,6 +182,8 @@
 			children = (
 				1AD49F1719B186F60008C4CE /* ShakeBehaviour.h */,
 				1AD49F1819B186F60008C4CE /* ShakeBehaviour.m */,
+				1AD49F1E19B188510008C4CE /* DropBehaviour.h */,
+				1AD49F1F19B188510008C4CE /* DropBehaviour.m */,
 			);
 			name = "UIKitDynamics Behaviour";
 			sourceTree = "<group>";
@@ -278,6 +288,8 @@
 			files = (
 				1AD49F1219B184C30008C4CE /* APAnimationListViewController.m in Sources */,
 				1AD49EE819B1847C0008C4CE /* main.m in Sources */,
+				1AD49F2019B188510008C4CE /* DropBehaviour.m in Sources */,
+				1AD49F1D19B188250008C4CE /* APDropViewController.m in Sources */,
 				1AD49F1919B186F60008C4CE /* ShakeBehaviour.m in Sources */,
 				1AD49F1519B1862D0008C4CE /* APShakeViewController.m in Sources */,
 				1AD49EEC19B1847C0008C4CE /* APAppDelegate.m in Sources */,
