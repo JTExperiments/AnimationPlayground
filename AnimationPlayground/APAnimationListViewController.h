@@ -1,5 +1,5 @@
 //
-//  APViewController.h
+//  APAnimationListViewController.h
 //  AnimationPlayground
 //
 //  Created by James Tang on 30/8/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface APViewController : UIViewController
+@interface APAnimationListViewController : UITableViewController
 
 @end

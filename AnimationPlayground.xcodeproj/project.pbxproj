@@ -14,13 +14,15 @@
 		1AD49EE819B1847C0008C4CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD49EE719B1847C0008C4CE /* main.m */; };
 		1AD49EEC19B1847C0008C4CE /* APAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD49EEB19B1847C0008C4CE /* APAppDelegate.m */; };
 		1AD49EEF19B1847C0008C4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD49EED19B1847C0008C4CE /* Main.storyboard */; };
-		1AD49EF219B1847C0008C4CE /* APViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD49EF119B1847C0008C4CE /* APViewController.m */; };
 		1AD49EF419B1847C0008C4CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD49EF319B1847C0008C4CE /* Images.xcassets */; };
 		1AD49EFB19B1847C0008C4CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD49EFA19B1847C0008C4CE /* XCTest.framework */; };
 		1AD49EFC19B1847C0008C4CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD49EDB19B1847C0008C4CE /* Foundation.framework */; };
 		1AD49EFD19B1847C0008C4CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD49EDF19B1847C0008C4CE /* UIKit.framework */; };
 		1AD49F0519B1847C0008C4CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AD49F0319B1847C0008C4CE /* InfoPlist.strings */; };
 		1AD49F0719B1847C0008C4CE /* AnimationPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD49F0619B1847C0008C4CE /* AnimationPlaygroundTests.m */; };
+		1AD49F1219B184C30008C4CE /* APAnimationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD49F1119B184C30008C4CE /* APAnimationListViewController.m */; };
+		1AD49F1519B1862D0008C4CE /* APShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD49F1419B1862D0008C4CE /* APShakeViewController.m */; };
+		1AD49F1919B186F60008C4CE /* ShakeBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD49F1819B186F60008C4CE /* ShakeBehaviour.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		1AD49EEA19B1847C0008C4CE /* APAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAppDelegate.h; sourceTree = "<group>"; };
 		1AD49EEB19B1847C0008C4CE /* APAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAppDelegate.m; sourceTree = "<group>"; };
 		1AD49EEE19B1847C0008C4CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1AD49EF019B1847C0008C4CE /* APViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APViewController.h; sourceTree = "<group>"; };
-		1AD49EF119B1847C0008C4CE /* APViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APViewController.m; sourceTree = "<group>"; };
 		1AD49EF319B1847C0008C4CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1AD49EF919B1847C0008C4CE /* AnimationPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD49EFA19B1847C0008C4CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1AD49F0219B1847C0008C4CE /* AnimationPlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimationPlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		1AD49F0419B1847C0008C4CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AD49F0619B1847C0008C4CE /* AnimationPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationPlaygroundTests.m; sourceTree = "<group>"; };
+		1AD49F1019B184C30008C4CE /* APAnimationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAnimationListViewController.h; sourceTree = "<group>"; };
+		1AD49F1119B184C30008C4CE /* APAnimationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAnimationListViewController.m; sourceTree = "<group>"; };
+		1AD49F1319B1862D0008C4CE /* APShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APShakeViewController.h; sourceTree = "<group>"; };
+		1AD49F1419B1862D0008C4CE /* APShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APShakeViewController.m; sourceTree = "<group>"; };
+		1AD49F1719B186F60008C4CE /* ShakeBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeBehaviour.h; sourceTree = "<group>"; };
+		1AD49F1819B186F60008C4CE /* ShakeBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeBehaviour.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,10 @@
 				1AD49EEA19B1847C0008C4CE /* APAppDelegate.h */,
 				1AD49EEB19B1847C0008C4CE /* APAppDelegate.m */,
 				1AD49EED19B1847C0008C4CE /* Main.storyboard */,
-				1AD49EF019B1847C0008C4CE /* APViewController.h */,
-				1AD49EF119B1847C0008C4CE /* APViewController.m */,
+				1AD49F1019B184C30008C4CE /* APAnimationListViewController.h */,
+				1AD49F1119B184C30008C4CE /* APAnimationListViewController.m */,
+				1AD49F1619B186BA0008C4CE /* ViewControllers */,
+				1AD49F1A19B186FA0008C4CE /* UIKitDynamics Behaviour */,
 				1AD49EF319B1847C0008C4CE /* Images.xcassets */,
 				1AD49EE219B1847C0008C4CE /* Supporting Files */,
 			);
@@ -150,6 +158,24 @@
 				1AD49F0319B1847C0008C4CE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AD49F1619B186BA0008C4CE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AD49F1319B1862D0008C4CE /* APShakeViewController.h */,
+				1AD49F1419B1862D0008C4CE /* APShakeViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1AD49F1A19B186FA0008C4CE /* UIKitDynamics Behaviour */ = {
+			isa = PBXGroup;
+			children = (
+				1AD49F1719B186F60008C4CE /* ShakeBehaviour.h */,
+				1AD49F1819B186F60008C4CE /* ShakeBehaviour.m */,
+			);
+			name = "UIKitDynamics Behaviour";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD49F1219B184C30008C4CE /* APAnimationListViewController.m in Sources */,
 				1AD49EE819B1847C0008C4CE /* main.m in Sources */,
-				1AD49EF219B1847C0008C4CE /* APViewController.m in Sources */,
+				1AD49F1919B186F60008C4CE /* ShakeBehaviour.m in Sources */,
+				1AD49F1519B1862D0008C4CE /* APShakeViewController.m in Sources */,
 				1AD49EEC19B1847C0008C4CE /* APAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
