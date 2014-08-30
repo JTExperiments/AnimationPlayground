@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "APRestorableBehaviour.h"
 
-@interface DropBehaviour : UIDynamicBehavior
+@interface DropBehaviour : UIDynamicBehavior <APRestorableBehaviour>
+
+@property (readwrite, nonatomic) NSInteger angle;
 
 - (id)initWithItem:(id <UIDynamicItem>)item;
 

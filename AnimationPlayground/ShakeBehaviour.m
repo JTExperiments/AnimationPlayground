@@ -26,12 +26,8 @@
 
 - (void)willMoveToAnimator:(UIDynamicAnimator *)dynamicAnimator {
 
-    if (dynamicAnimator == nil) {
-        _item.center = _center;
-        return;
-    }
-
     _center = _item.center;
+
     UIAttachmentBehavior *snapBehaviour = [[UIAttachmentBehavior alloc] initWithItem:_item attachedToAnchor:_center];
 
     snapBehaviour.damping = self.damping;
@@ -43,6 +39,10 @@
     behaviour.pushDirection = self.pushDirection;
     [self addChildBehavior:behaviour];
 
+}
+
+- (void)restorePosition {
+    _item.center = _center;
 }
 
 @end

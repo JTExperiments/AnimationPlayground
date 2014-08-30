@@ -65,6 +65,7 @@
 		1AD49F1C19B188250008C4CE /* APDropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDropViewController.m; sourceTree = "<group>"; };
 		1AD49F1E19B188510008C4CE /* DropBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropBehaviour.h; sourceTree = "<group>"; };
 		1AD49F1F19B188510008C4CE /* DropBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropBehaviour.m; sourceTree = "<group>"; };
+		1AD49F2119B191DF0008C4CE /* APRestorableBehaviour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APRestorableBehaviour.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +181,7 @@
 		1AD49F1A19B186FA0008C4CE /* UIKitDynamics Behaviour */ = {
 			isa = PBXGroup;
 			children = (
+				1AD49F2119B191DF0008C4CE /* APRestorableBehaviour.h */,
 				1AD49F1719B186F60008C4CE /* ShakeBehaviour.h */,
 				1AD49F1819B186F60008C4CE /* ShakeBehaviour.m */,
 				1AD49F1E19B188510008C4CE /* DropBehaviour.h */,

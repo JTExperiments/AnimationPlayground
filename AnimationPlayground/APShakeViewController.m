@@ -26,9 +26,10 @@
 }
 
 - (IBAction)buttonDidPress:(id)sender {
-    [self.animator.behaviors enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        [self.animator removeBehavior:obj];
+    [self.animator.behaviors enumerateObjectsUsingBlock:^(id <APRestorableBehaviour> obj, NSUInteger idx, BOOL *stop) {
+        [obj restorePosition];
     }];
+    [self.animator removeAllBehaviors];
     ShakeBehaviour *behaviour = [[ShakeBehaviour alloc] initWithItem:self.button];
     [self.animator addBehavior:behaviour];
 }

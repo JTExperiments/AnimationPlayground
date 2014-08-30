@@ -19,15 +19,11 @@
 
     self = [super init];
     _item = item;
+    _angle = 60;
     return self;
 }
 
 - (void)willMoveToAnimator:(UIDynamicAnimator *)dynamicAnimator {
-
-    if (dynamicAnimator == nil) {
-        _item.center = _center;
-        return;
-    }
 
     _center = _item.center;
 
@@ -45,11 +41,15 @@
 
     itemBehaviour.allowsRotation = YES;
 
-    CGFloat degree = arc4random() % 60;
-    CGFloat flipped = arc4random() % 2 == 0 ? degree * -1 : degree;
+    CGFloat degrees = arc4random() % _angle;
+    CGFloat flipped = arc4random() % 2 == 0 ? degrees * -1 : degrees;
     [itemBehaviour addAngularVelocity:DEGREES_TO_RADIANS(flipped) forItem:_item];
 
     [self addChildBehavior:itemBehaviour];
+}
+
+- (void)restorePosition {
+    _item.center = _center;
 }
 
 @end

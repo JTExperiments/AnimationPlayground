@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "APRestorableBehaviour.h"
 
-@interface ShakeBehaviour : UIDynamicBehavior
+@interface ShakeBehaviour : UIDynamicBehavior <APRestorableBehaviour>
 
 @property (readwrite, nonatomic) CGVector pushDirection;
 @property (readwrite, nonatomic) CGFloat length;
